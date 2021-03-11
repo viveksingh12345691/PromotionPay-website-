@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap E-commerce Templates</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<style type="text/css"> 
+			h1 { 
+				color:green; 
+			} 
+			.xyz { 
+				background-size: auto; 
+				text-align: center; 
+				padding-top: 100px; 
+			} 
+			.btn-circle.btn-sm { 
+				width: 30px; 
+				height: 30px; 
+				padding: 6px 0px; 
+				border-radius: 15px; 
+				font-size: 8px; 
+				text-align: center;
+				outline: none;
+			} 
+			.btn-circle.btn-md { 
+				width: 50px; 
+				height: 50px; 
+				padding: 7px 10px; 
+				border-radius: 25px; 
+				font-size: 10px; 
+				text-align: center; 
+			} 
+			.btn-circle.btn-xl { 
+				width: 70px; 
+				height: 70px; 
+				padding: 10px 16px; 
+				border-radius: 35px; 
+				font-size: 12px; 
+				text-align: center; 
+			} 
+		</style>
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="eg. T-sirt">
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Your Cart</a></li>
+							<li><a href="#">Checkout</a></li>					
+							<li><a href="#">Login</a></li>		
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="themes/images/logo1.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="index.html">Home</a></li>															
+							<li><a href=".html">Product</a></li>			
+							<li><a href="Contact.html">Contact US</a></li>
+					</nav>
+				</div>
+			</section>
+			<section  class="homepage-slider" id="home-slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="themes/images/carousel/slideimage1.jpg" alt="" />
+						</li>
+						<li>
+							<img src="themes/images/carousel/banner-4.jpg" alt="" />
+						</li>
+						<li>
+							<img src="themes/images/carousel/banner-3.jpg" alt="" />
+							<div class="intro">
+							<p>
+							</div>
+						</li>
+					</ul>
+				</div>			
+			</section>
+			<section class="header_text">
+				Promotion Pay$ utilizes the latest and top of the line printing technologies in-house and on demand. 
+				<br/>We custom design corporate ideas through the strategy of printing on our wide variety of promotional products; this has become a proven successful technique in enhancing corporate advertising. 
+			</section>
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">													
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									<span class="pull-left"><span class="text"><span class="line">Products</span></span></span>
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel" data-slide="prev"></a><a class="right button" href="#myCarousel" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img id="jacket" src="C:/Users/abhi/Desktop/red_jacket.jpg" alt="" /></a></p>
+														<strong class="title">JACKET</strong><br/>
+													<div>
+															<button type="button" onclick="blueJacket()" class="btn btn-primary btn-circle btn-sm">Blue</button>
+															<button type="button" onclick="redJacket()" class="btn btn-danger btn-circle btn-sm">Red</button>
+														</div>
+														<div style="padding-top: 5px;">
+															<button type="button" class="btn btn-primary">Add Cart</button>
+														</div>
+														<p class="price">$17.25</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img id="tshirt" src="C:/Users/abhi/Desktop/blue_tshirt.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Quis nostrud exerci tation</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<div>
+															<button type="button" onclick="bluetshirt()" class="btn btn-primary btn-circle btn-sm">Blue</button>
+															<button type="button" onclick="redtshirt()" class="btn btn-danger btn-circle btn-sm">Red</button>
+															<button type="button" onclick="greentshirt()" class="btn btn-success btn-circle btn-sm">Green</button>
+															
+														</div>
+														<div style="padding-top: 5px;">
+															<button type="button" class="btn btn-primary">Add Cart</button>
+														</div>
+														<p class="price">$32.50</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img id="t_shirt" src="C:/Users/abhi/Desktop/tgreen.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Know exactly turned</a><br/>
+														<a href="products.html" class="category">Quis nostrud</a>
+														<div>
+															<button type="button" onclick="tblue()" class="btn btn-primary btn-circle btn-sm">Blue</button>
+															<button type="button" onclick="tred()" class="btn btn-danger btn-circle btn-sm">Red</button>
+															<button type="button" onclick="tyellow()" class="btn btn-warning btn-circle btn-sm">Yellow</button> 
+															<button type="button" onclick="tgreen()" class="btn btn-success btn-circle btn-sm">Green</button>
+														</div>
+														<div style="padding-top: 5px;">
+															<button type="button" class="btn btn-primary">Add Cart</button>
+														</div>
+														<p class="price">$14.20</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img id="tt" src="C:/Users/abhi/Desktop/t2.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">You think fast</a><br/>
+														<a href="products.html" class="category">World once</a>
+														<div>
+															<button type="button" onclick="t1()" class="btn btn-primary btn-circle btn-sm">Blue</button>
+															<button type="button" onclick="t2()" class="btn btn-danger btn-circle btn-sm">Red</button>
+														</div>
+														<div style="padding-top: 5px;">
+															<button type="button" class="btn btn-primary">Add Cart</button>
+														</div>
+														<p class="price">$31.45</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+										
+								<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Navigation</h4>
+						<ul class="nav">
+							<li><a href="index.html">Homepage</a></li>  
+							<li><a href="#">About Us</a></li>
+							<li><a href="Contact.html">Contac Us</a></li>
+							<li><a href="#">Your Cart</a></li>
+							<li><a href="#">Login</a></li>							
+						</ul>					
+					</div>
+					<div class="span4">
+						
+						<ul class="nav">
+						<div class="span4">
+							<h4>My Account</h4>
+							<li><b>By Email:</b></li>
+							<li>By Phone: (Operating Hours: 9am-5pm)</li>
+							<li>Customer Service: info@promotionpay.com</li>
+							<li>Sales: sales@promotionpay.com</li>
+							<li>Art Department: artwork@promotionpay.com</li>
+						</ul>
+					</div>
+					<div class="span5">
+						<p class="logo"><img src="themes/images/logo1.png" class="site_logo" alt=""></p>
+						<p>Promotion Pay$ was established in 2003 with the objective of authorizing people to buy and custom 
+						imprint on our wide variety of merchandiseThe promotional products range from T-shirts and a diversity 
+						of other apparel to office supplies. As a promotional company, we strive to meet the customer’s needs 
+						and ensure their full satisfaction. We make it our personal commitment to provide incomparable quality and pricing.</p>
+						<br/>
+					</div>					
+				</div>	
+			</section>
+			<section id="copyright">
+				<span>© 2015 Promotion Pay$ all right reserved.</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+		<script src="themes/js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(document).ready(function() {
+					$('.flexslider').flexslider({
+						animation: "fade",
+						slideshowSpeed: 4000,
+						animationSpeed: 600,
+						controlNav: false,
+						directionNav: true,
+						controlsContainer: ".flex-container" // the container that holds the flexslider
+					});
+				});
+			});
+			
+			function redJacket() {
+			  document.getElementById("jacket").src = "C:/Users/abhi/Desktop/red_jacket.jpg";
+			}
+			function blueJacket() {
+			  document.getElementById("jacket").src = "C:/Users/abhi/Desktop/blue_jacket.jpg";
+			}
+			function redtshirt() {
+			  document.getElementById("tshirt").src = "C:/Users/abhi/Desktop/red_tshirt.jpg";
+			}
+			function bluetshirt() {
+			  document.getElementById("tshirt").src = "C:/Users/abhi/Desktop/blue_tshirt.jpg";
+			}function greentshirt() {
+			  document.getElementById("tshirt").src = "C:/Users/abhi/Desktop/green_tshirt.jpg";
+			}
+			function tblue() {
+			  document.getElementById("t_shirt").src = "C:/Users/abhi/Desktop/tblue.jpg";
+			}
+			function tred() {
+			  document.getElementById("t_shirt").src = "C:/Users/abhi/Desktop/tred.jpg";
+			}
+			function tyellow() {
+			  document.getElementById("t_shirt").src = "C:/Users/abhi/Desktop/tyellow.jpg";
+			}function tgreen() {
+			  document.getElementById("t_shirt").src = "C:/Users/abhi/Desktop/tgreen.jpg";
+			}
+			function t1() {
+			  document.getElementById("tt").src = "C:/Users/abhi/Desktop/t1.jpg";
+			}
+			function t2() {
+			  document.getElementById("tt").src = "C:/Users/abhi/Desktop/t2.jpg";
+			}
+		</script>
+    </body>
+</html>
